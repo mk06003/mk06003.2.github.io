@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: #dcc6c4;
+    color: white;
+    padding: 10px;
+}
+
+/* website logo image on menu bar */
+.logo img{
+    width: 50px;
+}
+
+/* menu bar */
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    position: relative;
+    margin: 0px 10px;
+    padding: 0px 2px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.menu ul li a:hover{
+    color: rgb(105, 83, 83);
+}
+
+/* google search button on menu bar */
+.button{
+    background-color: rgb(239, 239, 239);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: rgb(105, 83, 83);
+}
+
+/* page title text */
+h1{
+    color: #ede6d7;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:  rgb(105, 83, 83);
+    background-size: contain;
+    background-attachment: fixed;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* home page setting */
+.homepage{
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* home page image */
+.image1{
+    width: 40%;
+    height: 40%;
+}
+
+/* home page description text */
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(105, 83, 83);
+    background-color: rgb(250, 249, 249);
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3%;
+}
+
+/* my gallery images */
+.mygallery{
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.image9{
+    width: 100%;
+    height: 85%;
+}
+
+.image10{
+    width: 100%;
+    height: 85%;
+}
+
+.image11{
+    width: 100%;
+    height: 85%;
+}
+
+.image12{
+    width: 100%;
+    height: 85%;
+}
+
+/* my achievements section */
+.myachievements{
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* my achievements list */
+.myachievements ol li{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(105, 83, 83);
+    text-align: justify;
+    background-color: #ede6d7;
+    font-size: 23px;
+    margin-left: 9%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+
+/* my skills section */
+.myskills{
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* my skills list */
+.myskills ol li{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(105, 83, 83);
+    text-align: justify;
+    background-color: #ede6d7;
+    font-size: 23px;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-left: 9%;
+
+}
+
+/* project page */
+h3{
+    font-size: 25px;
+    color:rgb(105, 83, 83);
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-bottom: 0%;
+    padding-right: 25%;
+    background-color:#ede6d7;
+}
+
+figure{
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+figcaption{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(105, 83, 83);
+    text-align: justify;
+    background-color: lightgray;
+    position: absolute;
+    padding: 10px;
+    bottom: 30px;
+}
+
+/* paragraphs */
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(105, 83, 83);
+    text-align: justify;
+    bottom: 30px;
+    background-color: #ede6d7;
+    font-size: 18px;
+    padding-top: 4%;
+    padding-left: 8%;
+    padding-bottom: 8%;
+    padding-right: 8%;
+}
+
+/* sub-titles */
+h6{
+    font-size: 25px;
+    color:rgb(105, 83, 83);
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 4%;
+    padding-right: 25%;
+    background-color:#ede6d7;
+}
+
+/* documentary images section */
+.documentaryimages{
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.image2{
+    width: 100%;
+    height: 76%;
+}
+
+.image3{
+    width: 100%;
+    height: 76%;
+}
+
+.image4{
+    width: 100%;
+    height: 76%;
+}
+
+div.gallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+    padding-right: 8%;
+    padding-left: 4%;
+}
+
+figure.gallery{
+    width: 100%;
+    height: auto;
+}
+
+/* documentary section */
+.thefilm{
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+iframe{
+    width: 800px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* production images section */
+.productionimages{
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.image5{
+    width: 100%;
+    height: 85%;
+}
+
+.image6{
+    width: 100%;
+    height: 85%;
+}
+
+.image7{
+    width: 100%;
+    height: 78%;
+}
+
+.image8{
+    width: 100%;
+    height: 78%;
+}
+
+/* Links to MMG section */
+.linkstoMMG{
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.linkstoMMG ul li{
+    list-style-type: circle;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(105, 83, 83);
+    text-align: justify;
+    background-color: #ede6d7;
+    font-size: 23px;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-left: 9%;
+}
+
+
+
+/* contact page */
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ede6d7;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.contactmethod{
+    text-align: center;
+}
+
+.contactmethod p{
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(105, 83, 83);
+    font-size: 25px;
+}
+
+.button2{
+    background-color:  #dcc6c4;
+    color: white;
+    font-size: 40px;
+    border: none;
+    border-radius: 50px;
+    padding: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button2:hover{
+    background-color: rgb(105, 83, 83);
+}
+
